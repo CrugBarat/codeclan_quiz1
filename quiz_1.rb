@@ -8,7 +8,7 @@
 # display overall result out of 10 and message
 
 puts "\nWelcome to the CodeClan Quiz!"
-puts "\nComplete the following multiple choice questions to see what you've learned in Day 1 & 2."
+puts "\nComplete the following multiple choice questions to test what you've learned in Day 1 & 2."
 
 class Quiz1
   attr_accessor :prompt, :answer
