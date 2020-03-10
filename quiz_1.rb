@@ -57,7 +57,8 @@ def run_quiz(questions)
       score += 1
     end
   end
-  puts ("Quiz complete. You scored " + score.to_s + "/" + questions.length().to_s)
+  puts ("\nQuiz complete. You scored " + score.to_s + "/" + questions.length().to_s)
+  puts ""
 end
 
 run_quiz(questions)
