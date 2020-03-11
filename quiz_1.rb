@@ -20,18 +20,7 @@ p8 = "\nQ8: Case statements contain which inputs?\n\n(a) if, else\n(b) &&, ||\n(
 p9 = "\nQ9: According to Ruby convention, which function name should be used?\n\n(a) Number_One\n(b) numberOne\n(c) number-one\n(d) number_one"
 p10 = "\nQ10: What type of software testing, tests individual components of software?\n\n(a) sequential\n(b) unit\n(c) sanity\n(d) integration"
 
-questions = [
-  Quiz1.new(p1, "c"),
-  Quiz1.new(p2, "b"),
-  Quiz1.new(p3, "a"),
-  Quiz1.new(p4, "d"),
-  Quiz1.new(p5, "a"),
-  Quiz1.new(p6, "c"),
-  Quiz1.new(p7, "b"),
-  Quiz1.new(p8, "c"),
-  Quiz1.new(p9, "d"),
-  Quiz1.new(p10, "b")
-]
+require_relative 'quiz_array'
 
 
 def run_quiz(questions)
