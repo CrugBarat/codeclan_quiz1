@@ -1,12 +1,3 @@
-# TODO: begin game
-# alert user game has begun
-# explain rules
-# ask first question
-# store result
-# return result
-# repeat ask/store/return for 10 questions
-# display overall result out of 10 and message
-
 puts "\nWelcome to the CodeClan Quiz!"
 puts "\nComplete the following multiple choice questions to test what you've learned in Day 1 & 2."
 
@@ -42,9 +33,6 @@ questions = [
   Quiz1.new(p10, "b")
 ]
 
-def begin
-
-end
 
 def run_quiz(questions)
   answer = ""
