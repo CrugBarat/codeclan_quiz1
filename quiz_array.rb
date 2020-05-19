@@ -1,4 +1,4 @@
-require_relative 'quiz'
+require_relative 'quiz_class'
 
 p1 = "\nQ1: What command is used to make a directory in UNIX?\n\n(a) touch\n(b) ls\n(c) mkdir\n(d) cd"
 p2 = "\nQ2: What command is used to delete a directory in UNIX?\n\n(a) del\n(b) rm -rf\n(c) bin\n(d) trsh"
